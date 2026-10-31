@@ -1,0 +1,48 @@
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- KiCad ---
+*.kicad_prl
+*-save.kicad_*
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache
+*.net
+*.tmp
+
+# --- 3D CAD & Slicers ---
+*.step.tmp
+*.stp.tmp
+*.stl.tmp
+*.gcode
+*.3mf.tmp
+
+# --- Datasheets & External Binaries ---
+docs/datasheets/*.pdf
+docs/datasheets/*.zip
+!docs/datasheets/README.md
+!docs/datasheets/*.md
+
+# --- Build & Output Artifacts ---
+build/
+dist/
+*.hex
+*.bin
+*.uf2
+
